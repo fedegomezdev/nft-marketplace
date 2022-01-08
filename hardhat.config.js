@@ -25,15 +25,15 @@ module.exports = {
     },
     ropsten: {
       url: `https://eth-ropsten.alchemyapi.io/v2/${alchemyApiKey}`,
-      accounts: [`${walletPrivateKey}`],
+      accounts: [walletPrivateKey],
     },
     bscTestnet: {
       url: `https://data-seed-prebsc-1-s1.binance.org:8545`,
-      accounts: [`${walletPrivateKey}`],
+      accounts: [walletPrivateKey],
     },
     mumbai: {
-      url: "https://rpc-mumbai.matic.today",
-      accounts: [`${walletPrivateKey}`],
+      url: `https://polygon-mumbai.g.alchemy.com/v2/${alchemyApiKey}`,
+      accounts: [walletPrivateKey],
     },
   },
   solidity: "0.8.4",
